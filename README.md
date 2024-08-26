@@ -1,3 +1,3 @@
 # Course: Python Project for Data Science (IBM)
-# Coursera_ScrapingExercise
+## Coursera_ScrapingExercise
 Extracting and Visualizing Stock Data
