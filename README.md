@@ -1,43 +1,37 @@
-```markdown
-
-# Course: Python Project for Data Science (IBM)
+# Course: Python Project for Data Science (IBM)  
 ### Coursera_ScrapingExercise
 
-# Stock Analysis: Yahoo Finance & Web Scraping
+## Stock Analysis: Yahoo Finance & Web Scraping
 
-## Description
+### Description
 
-This project is a practical exercise that combines extracting financial data from Yahoo Finance and additional data through web scraping to analyze the performance of different stocks.
+This project is a practical exercise from the IBM Data Science Professional Certificate on Coursera. It demonstrates how to combine financial data retrieval via the Yahoo Finance API with web scraping techniques to analyze stock performance.
 
-It uses Python to obtain historical price and volume information, complemented with data scraped from a webpage listing major U.S. companies. Interactive charts are generated to facilitate visualization and comparison of stock behavior over time.
+The script automatically fetches a list of major U.S. companies and their stock symbols from a webpage, then downloads historical stock price and volume data using the `yfinance` library. Finally, it creates interactive visualizations to explore and compare stock behavior over time.
 
-## Technologies and Libraries Used
+### Technologies and Libraries Used
 
 - Python 3.x  
 - `yfinance` for retrieving historical financial data  
 - `pandas` for data manipulation and analysis  
 - `BeautifulSoup` for web scraping  
+- `requests` for web content fetching  
 - `plotly` for interactive charts  
-- `requests` for web content fetching
 
-## Features
+### Features
 
-- Download historical data (price and volume) for a set of stocks (S&P 500 index) within a defined date range.  
-- Perform web scraping to obtain an updated list of companies and their stock symbols from a website.  
-- Build a combined DataFrame with the collected data.  
-- Visualize stock price and volume evolution through interactive charts.  
-- Compare the behavior of different stocks for basic analysis.
+- Scrapes an up-to-date list of major U.S. companies and their ticker symbols.  
+- Downloads historical stock price and volume data for these companies over a specified date range.  
+- Combines data into a single DataFrame for analysis.  
+- Generates interactive charts for stock price and volume visualization.  
+- Facilitates comparison of stock performance for exploratory data analysis.  
 
-## Exercise Objectives
+### How to Run the Project
 
-- Practice using financial APIs to obtain real data.  
-- Develop skills in web scraping for structured data extraction.  
-- Perform exploratory data analysis and visualization with interactive tools.  
-- Prepare a practical case to showcase technical ability in financial data analysis.
+1. Clone or download this repository.  
+2. Install the required dependencies:  
+   ```bash
+   pip install yfinance pandas beautifulsoup4 requests plotly
 
-## How to Use the Project
-
-1. Clone or download the repository.  
-2. Install dependencies:  
    ```bash
    pip install yfinance pandas beautifulsoup4 requests plotly
