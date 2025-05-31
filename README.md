@@ -1,5 +1,5 @@
-# Course: Python Project for Data Science (IBM)  
-### Coursera_ScrapingExercise
+# Python Project for Data Science (IBM)  
+### ibm-scraping-exercise
 
 ## Stock Analysis: Yahoo Finance & Web Scraping
 
